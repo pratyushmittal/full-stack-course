@@ -39,10 +39,46 @@ It assumes that a person reading this guide already has a basic knowledge of:
     - anyone can register and post in plain text
     - show all posts in decreasing order
 - push it to production
+    - setup a remote server
+    - copy code to remote server
+    - install MySQL
+    - install nginx
+    - setup gunicorn
+    - install postfix
+- add a domain name
+    - purchase a domain name
+    - setup DNS records
+    - setup SPF records
 - setup git-push
+    - add repository
+    - add post-receive hook
+- improve design
+    - normalize.css
+    - mobile first and minimal CSS needed
+    - use external font
+    - style buttons and form
 - handle rich text
+    - use contenteditable and Javascript
+    - use Bleach to sanitize content
 - handle image uploads
+    - ajax and drop even handlers
 - re-deploy everything
-- automate server setup
+    - understand need for server automation
+    - write Dockerfile
+    - write docker-compose.yml
+- monitoring and routine tasks
+    - crons for error logs
+    - include crons in source code
+    - cron to create a backup everyday
 - make the design *smart*
+    - show more using css
+    - three column design:
+        - toc
+        - content
+        - footnotes
 - change the web-host
+    - deploy a new server
+    - put website on maintenance
+    - create a backup
+    - restore backup on new web-host
+    - update DNS records
