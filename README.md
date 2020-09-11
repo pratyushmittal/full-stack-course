@@ -72,6 +72,7 @@ It assumes that a person reading this guide already has a basic knowledge of:
     - cron to create a backup everyday
 - make the design *smart*
     - show more using css
+    - show tooltips
     - three column design:
         - toc
         - content
