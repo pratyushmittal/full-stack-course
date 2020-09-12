@@ -8,7 +8,6 @@ By the end of the course, a person should be able to:
 - create remote servers 
 - use ssh
 - use nginx
-- setup SMTP server
 - deploy app using "git push"
 - use crons
 - use SSL and LetsEncrypt
@@ -33,6 +32,15 @@ It assumes that a person reading this guide already has a basic knowledge of:
 - git
 
 
+## Rules
+
+- I will **not provide** any solutions.
+- You need to develop a habit of searching good content and referring the documentation.
+- Sleep over the problem when you get stuck. Sometimes the solutions come at night or next day. Develop this instinct.
+- Ask on StackOverflow or IRC channels if you get stuck.
+- I **will** review the *working* code if you want.
+
+
 ### Course outline
 
 - Create a very simple group blog
@@ -44,11 +52,9 @@ It assumes that a person reading this guide already has a basic knowledge of:
     - install MySQL
     - install nginx
     - setup gunicorn
-    - install postfix
 - add a domain name
     - purchase a domain name
     - setup DNS records
-    - setup SPF records
 - setup git-push
     - add repository
     - add post-receive hook
