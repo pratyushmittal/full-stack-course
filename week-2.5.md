@@ -8,16 +8,18 @@ The plain text posts are not very pretty. We should be able to add links and bas
 
 ### Better posts with rich text content *~3 days*
 
-- Add ability to insert links and emphasis in the posts.
+- Add ability to insert links and bold text in the posts.
 - Sanitize the input to ensure user can't insert malicious html content such as javascript.
 - Sanitize the input at server level too.
 
 ## Resources
 
-- `contenteditable`
-- XSS
-- [Bleach]()
-- Try to avoid using any JS library and write your own component for rich text editing. Use [Trix]() only if it becomes too hard to do it yourself.
+- Docs on [`contenteditable`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
+- About [XSS](https://www.google.com/about/appsecurity/learning/xss/) attacks with doable examples
+- [XSS](https://docs.djangoproject.com/en/3.1/topics/security/#cross-site-scripting-xss-protection) protection in Django
+- Try to avoid using any JS library and write your own component for rich text editing. Use [Trix](https://trix-editor.org) only if it becomes too hard to do it yourself.
+- [Bleach](https://bleach.readthedocs.io/en/latest/)
+
 
 ## Food for thought
 
