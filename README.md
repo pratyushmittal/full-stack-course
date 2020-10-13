@@ -1,8 +1,10 @@
 # What is this about?
 
-Being a "full-stack" engineer requires multiple skills. It can be overwhelming to think of all of them. This guided provides a step-by-step guide to learn and **practice** those skills.
+This course will give you skills to create a full website. From scratch to deployment.
 
-By the end of the course, a person should be able to:
+Being a "full-stack" engineer requires multiple skills. It can be overwhelming to think of all of them. **This guided provides a step-by-step guide to learn and practice those skills.**
+
+By the end of the course, you will probably be able to:
 
 - create a Django application
 - create remote servers 
@@ -28,8 +30,8 @@ It assumes that a person reading this guide already has a basic knowledge of:
 
 - html
 - css
-- backend servers for *rendering* html based on the request
 - git
+- know how websites work
 
 
 ## Rules
@@ -43,7 +45,7 @@ It assumes that a person reading this guide already has a basic knowledge of:
 
 ### Course outline
 
-- Create a very simple group blog
+- Create a very simple blog: something like Twitter
     - anyone can register and post in plain text
     - show all posts in decreasing order
 - push it to production
